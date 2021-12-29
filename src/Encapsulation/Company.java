@@ -47,17 +47,12 @@ public void setAvailable(boolean isAvailable) {
 	this.isAvailable = isAvailable;
 }
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-		Company c= new Company();
-      	String var=c.getCeoname();	
-		System.out.println(var);
-		c.sharePrice=456;
-		c.empCount=34;
-		c.name="vinay";
-		int sh=c.getShare();
-		System.out.println(sh);
-	}
+/*
+ * public static void main(String[] args) { // TODO Auto-generated method stub
+ * 
+ * Company c= new Company(); String var=c.getCeoname(); System.out.println(var);
+ * c.sharePrice=456; c.empCount=34; c.name="vinay"; int sh=c.getShare();
+ * System.out.println(sh); }
+ */
 
 }

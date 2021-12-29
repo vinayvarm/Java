@@ -1,6 +1,12 @@
 package Abstract;
 
 public class LoginPage extends Page{
+	
+	
+	public LoginPage() {
+		super();
+	}
+	
 
 	@Override
 	public  void title() {

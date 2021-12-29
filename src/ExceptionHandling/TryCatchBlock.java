@@ -11,7 +11,7 @@ System.out.println("outside try block");
   
 
 try {
-	int i=9/3;
+	int i=9/0;
 	System.out.println(i);
 }
 catch(ArithmeticException e) {

@@ -5,6 +5,7 @@ public class GoogleCrome {
 	
 	public void launchChrome() {
 		System.out.println("launchChrome");
+		// all the below are privte methods user cannot see their implementation
 		checkRam();
 		checkCompa();
 		checkOs();

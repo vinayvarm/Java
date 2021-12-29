@@ -9,6 +9,11 @@ public abstract void url();
 public abstract void loading();
 
 
+public Page() {
+	System.out.println("parent abs class constructor");
+}
+
+
 public void header() {
 	System.out.println();
 	
